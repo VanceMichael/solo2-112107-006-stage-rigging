@@ -1,0 +1,12 @@
+[
+  {
+    "certificate": "I1",
+    "beam": "B1",
+    "from_day": "2026-11-01",
+    "to_day": "2027-02-01",
+    "modes": [
+      "rehearsal",
+      "performance"
+    ]
+  }
+]

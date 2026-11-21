@@ -1,0 +1,28 @@
+[
+  {
+    "point": "P1",
+    "beam": "B1",
+    "zone": "ZL",
+    "modes": [
+      "rehearsal",
+      "performance"
+    ]
+  },
+  {
+    "point": "P2",
+    "beam": "B1",
+    "zone": "ZL",
+    "modes": [
+      "rehearsal",
+      "performance"
+    ]
+  },
+  {
+    "point": "P4",
+    "beam": "B2",
+    "zone": "ZR",
+    "modes": [
+      "performance"
+    ]
+  }
+]

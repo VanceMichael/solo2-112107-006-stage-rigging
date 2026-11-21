@@ -1,0 +1,17 @@
+[
+  {
+    "zone": "ZL",
+    "mode": "rehearsal",
+    "limitKg": 900
+  },
+  {
+    "zone": "ZL",
+    "mode": "performance",
+    "limitKg": 800
+  },
+  {
+    "zone": "ZR",
+    "mode": "performance",
+    "limitKg": 650
+  }
+]

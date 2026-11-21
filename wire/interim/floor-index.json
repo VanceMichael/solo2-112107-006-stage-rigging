@@ -1,0 +1,9 @@
+{
+  "venue": "M1",
+  "revision": "S2",
+  "inspectionPages": [
+    "inspection-a",
+    "inspection-c",
+    "inspection-b"
+  ]
+}

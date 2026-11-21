@@ -1,0 +1,24 @@
+[
+  {
+    "receipt": "SIGN-1",
+    "proposal": "P7",
+    "zone": "ZL",
+    "mode": "performance",
+    "plan_rev": "P7",
+    "inspection_ids": [
+      "I1"
+    ],
+    "decision": "signed"
+  },
+  {
+    "receipt": "SIGN-2",
+    "proposal": "P7",
+    "zone": "ZR",
+    "mode": "performance",
+    "plan_rev": "P7",
+    "inspection_ids": [
+      "I2"
+    ],
+    "decision": "signed"
+  }
+]

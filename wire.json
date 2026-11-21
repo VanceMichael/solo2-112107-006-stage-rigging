@@ -1,0 +1,147 @@
+{
+  "releases": {
+    "opening": {
+      "calls": {
+        "name": "opening/calls.json",
+        "type": "application/json"
+      },
+      "floor-index": {
+        "name": "opening/floor-index.json",
+        "type": "application/json"
+      },
+      "zones": {
+        "name": "opening/zones.json",
+        "type": "application/json"
+      },
+      "points": {
+        "name": "opening/points.json",
+        "type": "application/json"
+      },
+      "inspection-a": {
+        "name": "opening/inspection-a.json",
+        "type": "application/json"
+      },
+      "inspection-b": {
+        "name": "opening/inspection-b.json",
+        "type": "application/json"
+      },
+      "set": {
+        "name": "opening/set.json",
+        "type": "application/json"
+      },
+      "signatures": {
+        "name": "opening/signatures.json",
+        "type": "application/json"
+      },
+      "inheritance": {
+        "name": "opening/inheritance.json",
+        "type": "application/json"
+      }
+    },
+    "interim": {
+      "calls": {
+        "name": "interim/calls.json",
+        "type": "application/json"
+      },
+      "floor-index": {
+        "name": "interim/floor-index.json",
+        "type": "application/json"
+      },
+      "zones": {
+        "name": "interim/zones.json",
+        "type": "application/json"
+      },
+      "points": {
+        "name": "interim/points.json",
+        "type": "application/json"
+      },
+      "inspection-a": {
+        "name": "interim/inspection-a.json",
+        "type": "application/json"
+      },
+      "inspection-b": {
+        "name": "interim/inspection-b.json",
+        "type": "application/json"
+      },
+      "set": {
+        "name": "interim/set.json",
+        "type": "application/json"
+      },
+      "signatures": {
+        "name": "interim/signatures.json",
+        "type": "application/json"
+      },
+      "inheritance": {
+        "name": "interim/inheritance.json",
+        "type": "application/json"
+      }
+    },
+    "confirmed": {
+      "calls": {
+        "name": "confirmed/calls.json",
+        "type": "application/json"
+      },
+      "floor-index": {
+        "name": "confirmed/floor-index.json",
+        "type": "application/json"
+      },
+      "zones": {
+        "name": "confirmed/zones.json",
+        "type": "application/json"
+      },
+      "points": {
+        "name": "confirmed/points.json",
+        "type": "application/json"
+      },
+      "inspection-a": {
+        "name": "confirmed/inspection-a.json",
+        "type": "application/json"
+      },
+      "inspection-b": {
+        "name": "confirmed/inspection-b.json",
+        "type": "application/json"
+      },
+      "set": {
+        "name": "confirmed/set.json",
+        "type": "application/json"
+      },
+      "signatures": {
+        "name": "confirmed/signatures.json",
+        "type": "application/json"
+      },
+      "inheritance": {
+        "name": "confirmed/inheritance.json",
+        "type": "application/json"
+      },
+      "inspection-c": {
+        "name": "confirmed/inspection-c.json",
+        "type": "application/json"
+      }
+    }
+  },
+  "actions": {
+    "send": {
+      "receipt": "SIGN-4",
+      "decision": "received"
+    },
+    "replace": {
+      "receipt": "SIGN-5",
+      "decision": "pending"
+    },
+    "inspect": {
+      "receipt": "SIGN-5",
+      "decision": "signed"
+    }
+  },
+  "known": {
+    "opening": {},
+    "interim": {},
+    "confirmed": {}
+  },
+  "statusField": "decision",
+  "inspectStates": {
+    "send": "signed",
+    "replace": "signed"
+  },
+  "lateAction": null
+}

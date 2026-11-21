@@ -1,0 +1,10 @@
+[
+  {
+    "old_beam": "B1",
+    "new_beam": "B3",
+    "certificate": "I1",
+    "modes": [
+      "rehearsal"
+    ]
+  }
+]
