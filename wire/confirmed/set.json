@@ -22,5 +22,29 @@
     "point": "P4",
     "kg": 180,
     "group": "同步"
+  },
+  {
+    "proposal": "P9",
+    "call": "C2",
+    "item": "屏架甲",
+    "point": "P1",
+    "kg": 445,
+    "group": "同步"
+  },
+  {
+    "proposal": "P9",
+    "call": "C2",
+    "item": "灯架乙",
+    "point": "P2",
+    "kg": 320,
+    "group": "同步"
+  },
+  {
+    "proposal": "P9",
+    "call": "C2",
+    "item": "幕架丙",
+    "point": "P4",
+    "kg": 180,
+    "group": "同步"
   }
 ]
