@@ -36,6 +36,10 @@
       "inheritance": {
         "name": "opening/inheritance.json",
         "type": "application/json"
+      },
+      "mounted": {
+        "name": "opening/mounted.json",
+        "type": "application/json"
       }
     },
     "interim": {
@@ -73,6 +77,10 @@
       },
       "inheritance": {
         "name": "interim/inheritance.json",
+        "type": "application/json"
+      },
+      "mounted": {
+        "name": "interim/mounted.json",
         "type": "application/json"
       }
     },
@@ -115,6 +123,10 @@
       },
       "inspection-c": {
         "name": "confirmed/inspection-c.json",
+        "type": "application/json"
+      },
+      "mounted": {
+        "name": "confirmed/mounted.json",
         "type": "application/json"
       }
     }

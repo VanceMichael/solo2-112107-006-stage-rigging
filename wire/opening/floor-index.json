@@ -4,5 +4,8 @@
   "inspectionPages": [
     "inspection-a",
     "inspection-b"
+  ],
+  "conditionalClearingZones": [
+    "ZL"
   ]
 }

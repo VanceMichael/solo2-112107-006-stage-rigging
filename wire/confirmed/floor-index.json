@@ -5,5 +5,8 @@
     "inspection-a",
     "inspection-c",
     "inspection-b"
+  ],
+  "conditionalClearingZones": [
+    "ZL"
   ]
 }
