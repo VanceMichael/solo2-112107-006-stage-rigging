@@ -1,0 +1,5 @@
+[
+  { "zone": "ZA", "mode": "rehearsal", "limitKg": 900 },
+  { "zone": "ZA", "mode": "performance", "limitKg": 780 },
+  { "zone": "ZB", "mode": "performance", "limitKg": 500 }
+]

@@ -1,0 +1,5 @@
+[
+  { "point": "Q1", "beam": "C1", "zone": "ZA", "modes": ["rehearsal", "performance"] },
+  { "point": "Q2", "beam": "C2", "zone": "ZA", "modes": ["rehearsal", "performance"] },
+  { "point": "Q5", "beam": "C5", "zone": "ZB", "modes": ["performance"] }
+]

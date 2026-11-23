@@ -1,0 +1,7 @@
+[
+  { "proposal": "T1", "call": "D2", "item": "屏架甲", "point": "Q1", "kg": 460, "group": "同步" },
+  { "proposal": "T1", "call": "D2", "item": "灯架乙", "point": "Q2", "kg": 300, "group": "同步" },
+  { "proposal": "T2", "call": "D1", "item": "屏架甲", "point": "Q1", "kg": 460, "group": "同步" },
+  { "proposal": "T2", "call": "D1", "item": "灯架乙", "point": "Q2", "kg": 300, "group": "同步" },
+  { "proposal": "T3", "call": "D2", "item": "幕架丙", "point": "Q5", "kg": 210, "group": "同步" }
+]

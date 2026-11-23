@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>巡演吊挂资料 · 装台送签</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="mark">吊</span>
+      <div>
+        <h1>巡演吊挂资料与装台送签</h1>
+        <p class="sub">按场馆、布景清单与场次收齐资料 · 只采录额定值与明示沿用 · 不补算结构</p>
+      </div>
+    </div>
+    <div id="sourceState" class="source-state">正在读取来源…</div>
+  </header>
+
+  <main class="layout">
+    <section class="panel controls" aria-labelledby="pickTitle">
+      <h2 id="pickTitle">选择本次工况</h2>
+      <div class="field">
+        <label for="venue">场馆</label>
+        <select id="venue"></select>
+      </div>
+      <div class="field">
+        <label for="phase">资料版次</label>
+        <select id="phase"></select>
+      </div>
+      <div class="field">
+        <label for="call">场次</label>
+        <select id="call"></select>
+      </div>
+      <div class="field">
+        <label for="proposal">布景清单</label>
+        <select id="proposal"></select>
+      </div>
+      <div class="actions">
+        <button id="analyse" class="primary">查询本场资料</button>
+        <button id="buildPack">生成装台包</button>
+      </div>
+      <p class="hint" id="pickHint">先选场馆，再按场次筛选清单。</p>
+      <div id="overview" class="overview"></div>
+    </section>
+
+    <section id="result" class="result" aria-live="polite">
+      <div class="empty">
+        <h2>尚未查询</h2>
+        <p>选择场馆、场次与布景清单后查询。系统会从巡视表与设备证书接口收齐该方案的吊点、承重区、限额、证书与现场留存。</p>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="packDialog" class="dialog">
+    <form method="dialog"><button class="close" aria-label="关闭">×</button></form>
+    <div id="packBody"></div>
+  </dialog>
+
+  <template id="zoneTemplate">
+    <article class="zone">
+      <header class="zone-head">
+        <div>
+          <h3 class="zone-title"></h3>
+          <p class="zone-meta"></p>
+        </div>
+        <span class="badge"></span>
+      </header>
+      <div class="zone-body"></div>
+    </article>
+  </template>
+
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

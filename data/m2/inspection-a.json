@@ -1,0 +1,5 @@
+[
+  { "certificate": "J1", "beam": "C1", "from_day": "2026-12-01", "to_day": "2027-03-01", "modes": ["rehearsal", "performance"] },
+  { "certificate": "J2", "beam": "C2", "from_day": "2026-12-10", "to_day": "2027-03-01", "modes": ["performance"] },
+  { "certificate": "J3", "beam": "C5", "from_day": "2026-12-01", "to_day": "2027-03-01", "modes": ["performance"] }
+]

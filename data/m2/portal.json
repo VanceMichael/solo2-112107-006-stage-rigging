@@ -1,0 +1,10 @@
+{
+  "actions": {
+    "send": { "receipt": "MSIGN", "decision": "received" },
+    "replace": { "receipt": "MSIGN-R", "decision": "received" },
+    "inspect": { "receipt": "MSIGN-R", "decision": "signed" }
+  },
+  "inspectStates": { "send": "signed", "replace": "signed" },
+  "statusField": "decision",
+  "lateAction": null
+}

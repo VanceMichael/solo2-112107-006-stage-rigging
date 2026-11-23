@@ -1,0 +1,4 @@
+[
+  { "call": "D1", "kind": "rehearsal", "venue": "M2", "opens": "2026-12-18T14:00+08:00" },
+  { "call": "D2", "kind": "performance", "venue": "M2", "opens": "2026-12-18T20:00+08:00" }
+]
